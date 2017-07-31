@@ -82,6 +82,15 @@ div {
     margin: 10px;
 }
 
+.buttons {
+    background-color: #00A6B3;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
 .name {
     font-weight: 700;
     color: #F15B31;
@@ -93,6 +102,21 @@ div {
 
 .message {
     float: right;
+}
+
+#instructions {
+    margin: 70px 0 5px 0;
+}
+
+#counter {
+    background-color: white;
+    color: #0D2C40;
+    text-align: center;
+    width: 40px;
+}
+
+#score {
+    font-size: 30px;
 }
 
 .clearfix:after {
@@ -107,4 +131,6 @@ div {
 a:hover {
     background-color: white;
     color: #F15B31;
+    padding: 10px;
+    border-radius: 5px;
 }
